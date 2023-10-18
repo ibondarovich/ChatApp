@@ -1,0 +1,40 @@
+name: core_ui
+description: A new Flutter package project.
+version: 0.0.1
+homepage: 'none'
+
+environment:
+  sdk: '>=3.1.2 <4.0.0'
+  flutter: ">=1.17.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^2.0.0
+
+flutter:
+  assets:
+    - assets/icons/
+    - assets/images/
+
+  fonts:
+    - family: SF-Pro-Display
+      fonts:
+        - asset: assets/fonts/sf_pro_display/SF-Pro-Display-Regular.otf
+          weight: 400
+        - asset: assets/fonts/sf_pro_display/SF-Pro-Display-Medium.otf
+          weight: 500
+        - asset: assets/fonts/sf_pro_display/SF-Pro-Display-Bold.otf
+          weight: 700
+    - family: Roboto
+      fonts:
+        - asset: assets/fonts/roboto/Roboto-Regular.ttf
+          weight: 400
+        - asset: assets/fonts/roboto/Roboto-Medium.ttf
+          weight: 500
+        - asset: assets/fonts/roboto/Roboto-Bold.ttf
+          weight: 700
