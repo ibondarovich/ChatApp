@@ -1,16 +1,16 @@
-name: chat_app
-description: A new Flutter project.
-publish_to: 'none'
-version: 0.1.0
+name: navigation
+description: A new Flutter package project.
+version: 0.0.1
+homepage:
 
 environment:
   sdk: '>=3.1.2 <4.0.0'
+  flutter: ">=1.17.0"
 
 dependencies:
+  auto_route: ^7.8.4
   flutter:
     sdk: flutter
-  core_ui:
-    path: ./core_ui
 
 dev_dependencies:
   flutter_test:
@@ -18,4 +18,3 @@ dev_dependencies:
   flutter_lints: ^2.0.0
 
 flutter:
-  uses-material-design: true
