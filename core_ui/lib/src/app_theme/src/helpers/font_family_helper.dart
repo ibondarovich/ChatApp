@@ -5,7 +5,7 @@ class FontFamilyHelper {
   static const String _sfProDisplayFamily = 'SF-Pro-Display';
 
   static String get fontFamily{
-    if (!Platform.isAndroid) {
+    if (Platform.isAndroid) {
       return _robotoFamily;
     } else {
       return _sfProDisplayFamily;

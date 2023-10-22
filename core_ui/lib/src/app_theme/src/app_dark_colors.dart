@@ -1,6 +1,6 @@
 part of app_theme;
 
-class AppDarkTheme extends AppColorsTheme {
+class AppDarkColors extends AppColorsTheme {
   @override
   Color get activeIconState => AppColors.white;
 
